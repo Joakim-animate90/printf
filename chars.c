@@ -1,4 +1,4 @@
-/*all char realted functions*/
+
 #include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
@@ -15,7 +15,7 @@ char *make_char(char *s, va_list vl)
   char *result;
 
   i = 0;
-  j = (*s == '%') ? 1 : 0; /*if start with %*/
+  j = (*s == '%') ? 1 : 0;
   while (*(s + j) != 'c' && _is_digit(*(s + j)))
     {
       i = 10 * i + *(s + j) - '0';
