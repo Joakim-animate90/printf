@@ -1,5 +1,5 @@
 /*all char realted functions*/
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
