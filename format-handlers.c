@@ -1,7 +1,7 @@
 /*functions handling format parsing*/
 
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 #include <stdio.h>
 #include <unistd.h>
 
